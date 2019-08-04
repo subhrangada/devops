@@ -1,0 +1,7 @@
+- hosts: web
+  user: root
+  sudo: true
+
+  tasks:
+    - name: date command
+      command: date
