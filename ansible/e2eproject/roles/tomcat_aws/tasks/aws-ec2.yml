@@ -3,7 +3,7 @@
     key_name: "aws-demo-rh75"
     aws_access_key: "{{ my_access_key }}"
     aws_secret_key: "{{ my_secret_key }}"
-    group: launch-wizard-1  # security group name
+    group: launch-wizard-2  # security group name
     instance_type: "t2.micro"
     image: "ami-0a74bfeb190bd404f"
     wait: true
